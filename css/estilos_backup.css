@@ -1,0 +1,373 @@
+html {margin: 0;
+padding: 0%;
+font-family: Arial, Helvetica, sans-serif;}
+
+body {background-color: black;
+     padding: 0%;
+     margin: 0%;}
+
+header{position: sticky;
+   z-index: 200;
+  top: 0%;
+background-color: black;
+display: flex;
+justify-content:space-evenly;}
+
+.logo {width: 10%;
+      padding: 1% 0%;}
+
+.logo img {width: 100%;
+          display: flex;}
+
+nav {width: 40%;}
+
+
+nav ul {display: flex;
+       padding-top: 5%;
+       list-style-type: none;
+        }
+
+nav li {padding: 0% 5%;}
+
+nav a {text-decoration: none;
+       font-family: Arial, Helvetica, sans-serif;
+       color: antiquewhite;
+    font-size: 1rem;
+    font-weight: bold;}
+
+nav a:hover {color: green;}
+
+main {width: 100%;
+background-image: url(../assets/imagen/background.png);
+background-attachment: fixed;
+padding-top: 0%;
+padding-bottom: 2%;
+}
+
+.imagenPrincipal img{width: 100%;
+height: 60vh;}
+
+.imagenNosotros{width: 100%;
+    height: 60vh;
+    padding: 0%;
+    margin: 0;
+    background-image: url(../assets/imagen/nosotros_background.jpg);
+    background-size: cover;
+margin-top: 2%;}
+
+.imagenRegistrate{width: 100%;
+    height: 60vh;
+    padding: 0%;
+    margin: 0;
+    background-image: url(../assets/imagen/registro_principal.png);
+    background-size: cover;
+margin-top: 2%;
+display: flex;
+justify-content: flex-end;}
+
+.imagenSucursales{width: 100%;
+    height: 60vh;
+    padding: 0%;
+    margin: 0;
+    background-image: url(../assets/imagen/sucursales_background.jpg);
+    background-size: cover;
+margin-top: 2%;}
+
+.imagenMenu{width: 100%;
+    height: 60vh;
+    padding: 0%;
+    margin: 0;
+    background-image: url(../assets/imagen/menu_principal.png);
+    background-size: cover;
+margin-top: 2%;}
+
+.registrateContenedor{
+    width: 25%;
+    text-align: center;
+    font-size: 80%;
+    padding-right: 20%;
+}
+
+.beneficiosRegistroContenedor {margin-top: 2%;
+                    color: whitesmoke;
+                    margin-left: 15%;
+                    width: 65%;
+                    backdrop-filter: blur(12px);
+                    border-radius: 1rem;}
+
+.beneficiosRegistroContenedor h3 {padding: 2%;}
+
+.beneficiosRegistroContenedor p {margin-left: 3%;}
+
+.listaBeneficios {margin-left: 3%;}
+
+form {font-weight: bold;
+      margin-top: 10%;}
+
+input {width: 75%;
+       border-radius: 0.2rem;
+       height: 3vh;
+       margin-top: 2%;}
+
+.submit {width: 30%;
+         height: 5vh;
+        font-family: Arial, Helvetica, sans-serif;}
+
+.contenedorPrincipal{margin-left: 10%;
+                    width: 75%;
+                    margin-top: 1%;
+                    color: whitesmoke;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    font-size: 90%;}
+
+.contenedorPrincipal h2 {text-align: center;}
+
+.intro {width: 45%;
+    margin-left: 2%;
+color: whitesmoke;}
+
+.intro img {width: 100%;
+    border-color: whitesmoke;
+    border: solid;
+    border-radius: 1rem;}
+
+.intro h1 {text-align: center;}
+
+.intro h2 {text-align: center;}
+
+.intro h3 {text-align: center;}
+
+.intro a {text-decoration: none;
+           color:whitesmoke;}
+
+.intro a:hover{color: green;}
+
+.contenedorMenu {margin-left: 10%;
+                 width: 75%;
+                margin-top: 1%;
+                display: flex;
+                flex-wrap:wrap;
+                justify-content: center;
+                color: antiquewhite;}
+
+.contenedorMenu p {margin-left: 5%;}
+
+.contenedorComida {width: 30%;
+                    margin-left: 1%;
+                    margin-top: 3%;}
+    
+.contenedorComida img {width: 100%;
+                         border-radius: 1rem;
+                         border-color: whitesmoke;
+                        border: solid;}
+
+.contenedorComida h4 {text-align: left;
+                     margin-left: 3%;}
+
+    
+.infoComida {width: 100%;
+        backdrop-filter: blur(12px);
+        border: solid;
+        border-radius: 1rem;
+        border-color: white;
+        text-align: center;}
+    
+.infoComida p {padding: 3%;
+        font-size: 0.9rem;}
+
+.comidasPrincipal {width: 100%;
+                  display: flex;
+                  justify-content: center;}
+
+.comidas{width: 45%;
+    margin-left: 2%;
+    color: whitesmoke;}
+
+.comidas h2 {text-align: center;}
+
+.comidas h3 a:hover {color: green;}
+
+.comidasImagen {width: 45%;
+    margin-left: 2%;
+color: whitesmoke;}
+
+.comidasImagen img {width: 100%;
+    border-color: whitesmoke;
+border: solid;
+border-radius: 1rem;}
+
+.comidas p {font-size: 90%;
+    text-align: right;}
+
+.comidas h3 {text-align: center;}
+
+.comidas a {text-decoration: none;
+    color: whitesmoke;}
+
+.comidas video {width: 100%;}
+
+iframe {width: 100%;
+       height: 40vh;
+    border-color: whitesmoke;
+border: solid;
+border-radius: 1rem;}
+
+.contenedorSucursales {margin-left: 10%;
+    width: 75%;
+    margin-top: 1%;
+    color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 90%;}
+
+.sucursales iframe {width: 45%;
+            height: 40vh;
+            padding: 2%;
+            display: inline-block;
+            }
+
+.sucursales{width: 100%;
+            border: solid;
+            border-color: whitesmoke;
+            border-radius: 1rem;
+            backdrop-filter: blur(12px);
+            color: whitesmoke;
+            display: flex;
+            margin-top: 2%;}
+
+.sucursalInfo{width: 45%;
+         padding: 2%;
+      height: 30vh;}
+
+.sucursalInfo h2 {text-align: center;}
+                
+footer{width: 100%;
+margin-top: 5%;
+background-image: url(../assets/imagen/footer_background.png);
+display: flex;
+flex-direction: column;
+justify-content: center;}
+
+footer h3 {color: white;
+           text-align: center;
+        opacity: 0.8;
+padding-top: 2%;}
+
+.sponsors {display: flex;
+          justify-content:center;
+          width: 100%;}
+
+.sponsors ul {display: flex;
+             justify-content: center;
+            margin-left: 10%;
+            list-style-type: none;}
+
+.sponsors img {width: 50%;}
+
+.iconBox {margin-top: 2%;
+display: flex;
+justify-content: center;
+}
+
+.iconBox a {padding: 0% 2%;}
+
+.socialIcons {color: antiquewhite;
+              text-decoration: none;}
+
+footer h5 {text-align: center;
+           color: whitesmoke;
+        margin-top: 5%;}
+
+
+@media screen and (min-width:0px) and (max-width: 768px) {
+
+header {display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 100%;
+    position:relative;
+}
+
+.logo {width: 50%;
+    padding: 1% 0%;}
+
+.logo img {width: 100%;}
+
+nav {width: 100%;}
+
+
+nav ul {display: flex;
+       flex-direction: column;
+       justify-content: center;
+       padding-top: 5%;
+       list-style-type: none;
+        }
+
+nav li {padding: 5% 0%;
+        text-align: center;}
+
+.contenedorPrincipal{width: 90%;
+            margin-top: 1%;
+            color: whitesmoke;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-size: 90%;}
+
+.intro {width: 80%;
+        margin-left: 2%;
+        color: whitesmoke;
+        text-align: center;
+        }
+            
+.intro img {width: 100%;
+                border-color: whitesmoke;
+                border: solid;
+                border-radius: 1rem;}
+
+.comidasPrincipal {display: flex;
+                    flex-direction: column;
+                   flex-direction: column-reverse;}
+
+.comidas {width: 80%;
+        margin-left: 2%;
+        color: whitesmoke;
+        text-align: center;}
+
+.comidas p {text-align: center;
+           font-size: 90%;}
+
+
+.comidasImagen {width: 80%;
+                margin-left: 2%;
+                color: whitesmoke;}
+                
+.comidasImagen img {width: 100%;
+                border-color: whitesmoke;
+                border: solid;
+                border-radius: 1rem;
+            margin-top: 10%;}
+
+.contenedorMenu {width: 100%;
+                margin-left: 0%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;}
+
+.contenedorComida {width: 80%;
+                   display: flex;}
+
+.contenedorComida img {width: 40%;}
+
+.sponsors ul {margin: 0%;}
+
+.sponsors img {width: 80%;}
+
+}
+
+
+
